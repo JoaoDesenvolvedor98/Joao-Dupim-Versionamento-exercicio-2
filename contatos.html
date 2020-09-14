@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Games</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/estilo5.css"></link>
+	</head>
+
+	</head>
+	<body>
+		<div id="container">
+			<header id="titulo"><!-- criar o cabeçalho -->
+				<h1>Contatos</h1>
+			</header>
+			<nav id="menu"><!-- barra de navegação -->
+				<ul>
+					<li><a href="index.html">Home</a></li>
+                    <li><a href="consoles.html">Consoles</a></li>
+                    <li><a href="games.html">Games</a></li>
+					<li><a href="contatos.html">Contatos</a></li>	
+                    <li><a href="tabela.html">Tabela</a></li>
+                    <li><a href="mapa.html">Mapa</a></li>
+                    <li><a href="videos.html">Videos</a></li>  
+				</ul>
+			</nav>
+			<section id="principal">
+            <div id="form">
+                <form>
+                    Nome: <input type="text" name="name" placeholder="Digite seu nome"></br></br>
+                    Email: <input type="email" name="email" placeholder="Digite seu e-mail"></br></br>
+                    Data de nascimento: <input type="date" name="dtnasc" placeholder="Data de nascimento"></br></br>
+                    Sexo: <input type="radio" name="sexo" value="H"> Masculino 
+                    <input type="radio" name="sexo" value="F"> Feminino </br></br>
+                    Aceita receber e-mails promocionais? 
+                    <input type="checkbox" value="S"> Sim 
+                    <input type="checkbox" value="N"> Não </br></br> 
+                    
+                    Assunto: <select name="ass" >
+                        <option value="Reclamação" name='recl'>Reclamação</option>
+                        <option value="Dúvidas" name='duvidas'>Dúvidas</option>
+                        <option value="Sugestão" name='sug'>Sugestão</option>
+                        <option value="Elogios" name='elog'>Elogios</option>
+                        <option value="Outros" name='outros'>Outros</option>
+                    </select></br></br>
+                    
+                    Mensagem: </br><textarea name="mensagem"  rows="6" cols="30" placeholder="Digite sua mensagem"></textarea></br>
+                    
+                    <button type="enviar">Enviar</button>
+                    <button type="reset">Limpar</button>
+                
+                </form>
+            </div>    
+		
+			</section>
+			<footer>
+				<p>Rua Santa Luzia, 550- Cinelândia - Rio de Janeiro - RJ</p>
+				<p>Jogos clássicos e Retro - João Paulo Dupim - Rio de Janeiro - RJ</p>
+			</footer>
+		</div>
+	</body>
+</html>
