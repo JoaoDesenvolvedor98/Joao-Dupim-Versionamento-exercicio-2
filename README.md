@@ -1,1 +1,1 @@
-# Joao-Dupim-Versionamento-exerc-cio-2
+# Joao-Dupim-Versionamento-exercicio-2 aula 2
